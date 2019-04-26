@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Summary App</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_camera">camera</string>
 </resources>
