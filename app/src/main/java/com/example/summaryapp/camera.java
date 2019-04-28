@@ -17,16 +17,16 @@ public class camera extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton snapshot = findViewById(R.id.newPhoto);
+        FloatingActionButton snapshot = findViewById(R.id.capture);
         snapshot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        //.setAction("Action", null).show();
 
-                    /*Intent openSummary = new Intent(camera.this, Summary.class);
-                    startActivity(openSummary);*/
-                    // Code here executes on main thread after user presses button
+                    Intent openSummary = new Intent(camera.this, summary.class);
+                    startActivity(openSummary);
+                    //Code here executes on main thread after user presses button
 
             }
         });
