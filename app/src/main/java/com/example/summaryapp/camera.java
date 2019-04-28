@@ -24,8 +24,8 @@ public class camera extends AppCompatActivity {
                 //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         //.setAction("Action", null).show();
 
-                    Intent openSummary = new Intent(camera.this, summary.class);
-                    startActivity(openSummary);
+                Intent openEditText = new Intent(camera.this, EditText.class);
+                startActivity(openEditText);
                     //Code here executes on main thread after user presses button
 
             }
